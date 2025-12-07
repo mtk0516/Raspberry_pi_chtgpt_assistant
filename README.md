@@ -1,0 +1,2 @@
+# Raspberry_pi_chtgpt_assistant
+raspi5で動作する音声ベースのgpt_aiアシスタントのモジュール
