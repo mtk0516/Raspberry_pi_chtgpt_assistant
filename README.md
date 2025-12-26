@@ -6,8 +6,12 @@ raspi5(Debian環境)で動作する音声ベースのgpt_aiアシスタントの
 # requirements
 喋った音声の認識モデルとして、voskというモデルを利用しています。<br>
 以下いずれかをDLして解凍したうえで、detect_core.pyのDEFAULT_MODEL変数にパスを通してください。<br>
-[vosk_0.22_ja_large](https://alphacephei.com/vosk/models/vosk-model-ja-0.22.zip)<br>
+[vosk_0.22_ja_large](https://alphacephei.com/vosk/models/vosk-model-ja-0.22.zip)<br> ⇒こっちのが認識精度高い
 [vosk_0.22_ja_small](https://alphacephei.com/vosk/models/vosk-model-small-ja-0.22.zip)
+
+<br>
+当然ですが、マイク入力と音声出力ができる環境が必要になります。<br>
+
 # start
 python main.py
 
