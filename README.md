@@ -1,6 +1,7 @@
 # Raspberry_pi_chtgpt_assistant
-raspi5(Debian環境)で動作する音声ベースのgpt_aiアシスタントのモジュール
-他の環境でもPython環境があれば動作するかもですが未確認
+raspi5(Debian環境)で動作する音声ベースのgpt_aiアシスタントのモジュール<br>
+他の環境でもPython環境があれば動作するかも？未確認<br>
+適宜、main.pyにGPTへのPROMPTが入っていますので、好きにいじってください。
 
 # start
 python main.py
