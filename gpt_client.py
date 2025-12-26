@@ -5,7 +5,7 @@ from openai import OpenAI
 # 環境変数 OPENAI_API_KEY を使用
 _client = OpenAI()
 
-MODEL = "gpt-4.1-mini"  # ★ Pi で最速&軽量
+MODEL = "gpt-4.1-mini"  # ここは好みで変えてもよいが、mini以外のモデルだとレスポンス遅い
 
 def ask_gpt(user_text: str, system_text: str | None = None) -> str:
     """
